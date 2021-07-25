@@ -6,18 +6,18 @@ try:
     from multiprocessing.pool import ThreadPool
 except ImportError:
     os.system("pip2 install requests")
-    os.system("python2 KING.py")
+    os.system("python2 CRACK1.py")
 os.system("clear")
 """
 try:
-    my = requests.get("https://shadowhacker420")
+    my = requests.get("https://abicreation")
 except requests.exceptions.ConnectionError:
     print("")
     print("\t    \033[1;31mTurn on mobile data OR wifi\033[0;97m")
     print("")
     time.sleep(1)
     raw_input(" Press enter to try again ")
-    os.system("python2 KING.py")"""
+    os.system("python2 CRACK1.py")"""
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
     os.system("apt update && apt install nodejs -y")
 if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
@@ -51,7 +51,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "██🇸🇭🇦🇩🇴🇼░\n██CYBER king\n█BLACK HAT\n Alone Coder║ \n██║Alone Fighter\n\n-----------------------------------------------\n\n➣ Codded By : Kashmiri Hacker\n➣ Facebook  : hackerdx555555555555\n➣ Github    : https://github.com/shadowhacker420\n➣ Whatsap   : 03402721462\n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "██🇸🇭🇦🇩🇴🇼░\n██CYBER king\n█BLACK HAT\n Alone Coder║ \n██║Alone Fighter\n\n-----------------------------------------------\n\n➣ Codded By : Kashmiri Hacker\n➣ Facebook  : hackerdx555555555555\n➣ Github    : https://github.com/abicreation\n➣ Whatsap   : 03402721462\n\n-----------------------------------------------" | lolcat')
 def method_menu():
     os.system("clear")
     logo()
